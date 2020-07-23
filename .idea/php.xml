@@ -66,6 +66,8 @@
       <path value="$PROJECT_DIR$/vendor/psr/http-message" />
       <path value="$PROJECT_DIR$/vendor/psr/event-dispatcher" />
       <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$USER_HOME$/Downloads/selenium-server-2.39.0/selenium-2.39.0" />
+      <path value="$PROJECT_DIR$/../../../../webdrivers" />
     </include_path>
   </component>
 </project>
