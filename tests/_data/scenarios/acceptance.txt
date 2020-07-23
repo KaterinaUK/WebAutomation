@@ -1,0 +1,13 @@
+I WANT TO FRONTPAGE WORKS
+
+I am on page 'https://katerina-techinterview.otgs.work/wp-admin' 
+I see 'Username or Email Address'
+
+I WANT TO SIGN IN SUCCESSFULLY
+
+I am on page 'https://katerina-techinterview.otgs.work/wp-admin' 
+I fill field '//*[@id="user_login"]','katerinaadmin' 
+I fill field '//*[@id="user_pass"]','Z^Mt.fVQT~oB' 
+I click '//*[@id="wp-submit"]' 
+I see 'Welcome to WordPress!'
+
