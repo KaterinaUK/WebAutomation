@@ -68,6 +68,8 @@
       <path value="$PROJECT_DIR$/vendor/psr/container" />
       <path value="$USER_HOME$/Downloads/selenium-server-2.39.0/selenium-2.39.0" />
       <path value="$PROJECT_DIR$/../../../../webdrivers" />
+      <path value="$PROJECT_DIR$/vendor/codeception/codeception" />
     </include_path>
   </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="7.4" />
 </project>
