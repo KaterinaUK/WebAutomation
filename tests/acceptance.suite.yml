@@ -7,15 +7,11 @@
 actor: AcceptanceTester
 modules:
     enabled:
-        - PhpBrowser:
-            url: https://katerina-techinterview.otgs.work/wp-admin
         - WebBrowser:
             url: https://katerina-techinterview.otgs.work/wp-admin
-            browser: 'chrome'
+            browser: chrome
+            capabilities:
+              chromeOptions:
+                args: ["--headless"]
         - \Helper\Acceptance
-env:
-    phantom:
-        modules:
-            config:
-                WebDriver:
-                    browser: 'phantomjs'
+    step_decorators: ~
